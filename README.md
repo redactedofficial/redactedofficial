@@ -1,69 +1,72 @@
 # Hi, I'm Sebastian 👋
 
-I'm a full-stack developer, electrotechnician student, and infrastructure enthusiast based in Hungary. I build automation tools, bots, monitoring systems, and self-hosted services running on Proxmox, Debian, nginx, and low-level Linux.
+I'm a full-stack developer, electrotechnician student, and infrastructure enthusiast based in Hungary. I build automation tools, Discord bots, monitoring systems, and self-hosted services.
+
+My homelab is where software meets hardware: a rack of Dell PowerEdge servers, Proxmox virtualization, fiber and LTE connectivity, and a network I keep building and improving.
 
 ---
 
 ## 🛠️ What I Do
 
-- **GABS**: Creator of a real-time Discord moderation bot with an SQLite backend, live control panel, and modular plugin support.
-- **Automation**: Develop advanced Windows batch scripts, perform penetration testing, and manage Minecraft servers, backups, and network infrastructure.
-- **Homelab**: Operate a fully self-hosted infrastructure stack including servers, networking gear, and custom-built tools. It powers everything from game servers and Proxmox virtualization to audio routing and backups.
+- **GABS** — My Discord moderation bot, with an SQLite backend, a live control panel, and modular plugin support.
+- **xdev.lol** — My website and server-hosting project, built around self-hosted infrastructure.
+- **Automation** — Bash, Python, Windows batch scripts, and systemd services for monitoring, backups, deployments, and server management.
+- **Infrastructure** — Linux administration, Minecraft hosting, networking, virtualization, and security testing.
 
 ---
 
-## 🖥️ My Setup
+## 🖥️ My Homelab
 
-### PowerEdge R630 (Compute Node)
+### Compute & Hosting
 
-- Dual 14-core CPUs (28 threads each, 56 total)
-- 32GB DDR4 ECC RAM
-- Drives: 1TB SSD, 1TB HDD, 750GB HDD, 120GB SSD, 240GB SSD
-- Runs Proxmox with Debian, Ubuntu, and Windows 10 VMs
-- Handles all incoming requests, backend/frontend, and Minecraft computation
-- Dual gateway connections + tunnel to backup
+My setup has grown into a rack of **seven Dell PowerEdge R630 servers**, connected through a mix of **10GbE SFP+ uplinks and Gigabit connections**.
 
-### IBM Server (Storage Node)
+I use **Proxmox**, **Debian**, **Ubuntu**, and Windows VMs to run websites, backend services, development environments, and Minecraft servers.
 
-- 8-core CPU, 48GB DDR3 ECC RAM
-- 3×1.8TB HDDs for storage + 1TB cache HDD
-- Dual 60GB SAS RAID 1 boot drives
-- Runs TrueNAS CORE with IPMI
-- Handles storage, compression, and file management (~3.5TB)
+For xdev.lol, I'm building out Docker-based services, monitoring, synchronized databases, and Minecraft hosting through **MCSManager and Velocity**.
 
-### Networking & Integration
+### Networking
 
-- 1Gbps direct link between servers for low-latency access
-- PowerEdge routes to IBM for storage and redundancy
-- Proven performance under 200+ player Minecraft load over 3 servers
+The network is built around a **UniFi Dream Machine Pro**, **USW Aggregation**, and **USW Pro Max 24**, alongside **cnMatrix EX1028-P** and **PLANET GSW-2404SF** switches.
+
+- **Telekom fiber** — Main access connection, shown at 4000/2000 Mbps.
+- **Telekom LTE** — Secondary connectivity and management access, shown at 300/100 Mbps.
+- **Huawei 4G CPE 3** — LTE connectivity with an external high-gain antenna.
+- **VLANs** — Separate networks for servers, management, cameras, and other devices.
+- **Cloudflare** — DNS and proxying for public web services.
+- **PPPoE and optical downlinks** — Part of my network distribution setup.
+- **Separate backup path** — Connected through another gateway and One HU.
+
+### Monitoring & Hardware
+
+A dedicated **NUC** handles monitoring and NVR duties, with PTZ cameras connected through the switching infrastructure.
+
+I also work on the electrical side of the lab, including a **custom-built power distribution unit**.
 
 ---
 
-## 🔧 Services & Automation
+## 🔧 How I Build
 
-- Power Distribution Unit (custom-built)
-- Backup portals with auto-generated index
+I try to automate the repetitive work: backups, service checks, deployment tasks, dynamic DNS, and alerts.
 
-Everything is scripted or automated where possible using Bash, Python, and systemd services. From nightly backups to dynamic DNS and Discord bot-based monitoring (like GABS), it's all designed to run hands-off.
+This is a hands-on homelab, and I'm still learning as I expand it. I enjoy tracing problems through the whole stack—from a website or database down to Linux, switches, cables, and power.
 
 ---
 
 ## 📬 Let's Connect
 
-- Email: [ghsebestyen@gmail.com](mailto:ghsebestyen@gmail.com)
-- Discord: redactedofficial
-- GitHub: [github.com/Sebix12](https://github.com/Sebix12)
-- YouTube: [@redactedofficial](https://www.youtube.com/@redactedofficial)
+- **Email:** [ghsebestyen@gmail.com](mailto:ghsebestyen@gmail.com)
+- **Discord:** redactedofficial
+- **GitHub:** [Sebix12](https://github.com/Sebix12)
+- **YouTube:** [@redactedofficial](https://www.youtube.com/@redactedofficial)
+- **Website:** [xdev.lol](https://xdev.lol)
 
 Feel free to reach out for collaborations, questions, or just to say hi!
 
 ---
 
+## 📈 GitHub Stats
 
-## 📈 Stats
+![Sebastian's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sebix12&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
 
-![Sebi's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sebix12&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
-
----
-
-Thanks for visiting my profile! 🚀
+Thanks for visiting! 🚀
