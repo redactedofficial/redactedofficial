@@ -57,7 +57,6 @@ This is a hands-on homelab, and I'm still learning as I expand it. I enjoy traci
 
 - **Email:** [ghsebestyen@gmail.com](mailto:ghsebestyen@gmail.com)
 - **Discord:** redactedofficial
-- **GitHub:** [Sebix12](https://github.com/Sebix12)
 - **YouTube:** [@redactedofficial](https://www.youtube.com/@redactedofficial)
 - **Website:** [xdev.lol](https://xdev.lol)
 
@@ -67,6 +66,6 @@ Feel free to reach out for collaborations, questions, or just to say hi!
 
 ## 📈 GitHub Stats
 
-![Sebastian's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Sebix12&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
+![Sebastian's GitHub Stats](https://github-readme-stats.vercel.app/api?username=redactedofficial&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
 
 Thanks for visiting! 🚀
