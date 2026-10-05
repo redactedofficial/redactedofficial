@@ -20,6 +20,7 @@ My homelab is where software meets hardware: a rack of Dell PowerEdge servers, P
 ### Compute & Hosting
 
 My setup has grown into a rack of **seven Dell PowerEdge R630 servers**, connected through a mix of **10GbE SFP+ uplinks and Gigabit connections**.
+The lab also includes a **Supermicro blade server**, expanding the setup alongside the Dell rack servers.
 
 I use **Proxmox**, **Debian**, **Ubuntu**, and Windows VMs to run websites, backend services, development environments, and Minecraft servers.
 
